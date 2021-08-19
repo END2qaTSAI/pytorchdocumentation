@@ -1,6 +1,6 @@
 ---
 title: "Pytorch Documentation"
-author: '* **TEAM MEMBERS:** **Deepak Hazarika** , **Arghya** , **Ritambhra Korpal** , **Parinita Bora**, **Anish V**, **Megha**, **Shyam T**, **Nikhil Shrimali**, **Vishak Bharadwaj** *'
+author: '* **TEAM MEMBERS:** **Deepak Hazarika** , **Arghya** , **Ritambhra Korpal** , **Parinita Bora**, **Anish V**, **Shyam T**, **Nikhil Shrimali**, **Vishak Bharadwaj** *'
 date: "8/19/2021"
 output: html_document
 ---
