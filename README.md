@@ -1,8 +1,7 @@
-# pytorchdocumentation
 ---
 title: "Pytorch Documentation"
-author: '* **TEAM MEMBERS:** **Naveen M**, **Deepak Hazarika** , **Arghya** , **Ritambhra Korpal** , **Parinita Bora**, **Anish V**, **Megha**, **Shyam T**, **Nikhil Shrimali**, **Vishak Bharadwaj** *'
-date: "8/12/2021"
+author: '* **TEAM MEMBERS:** **Deepak Hazarika** , **Arghya** , **Ritambhra Korpal** , **Parinita Bora**, **Anish V**, **Shyam T**, **Nikhil Shrimali**, **Vishak Bharadwaj** *'
+date: "8/19/2021"
 output: html_document
 ---
 
@@ -26,38 +25,46 @@ Part 2 is done - Arghya provided the list of URLs
 
 Part 1 - 
 
-### Done - 755 QA generated on How to use a method?
-      
-  * code parsing and storing slightly differently
-  
-    * QA generated for all code examples from 355 web pages a sample is given below.
-    
-    * the entire code content is stored in a single line with the special characters
-    
-    * The question is more like *how to use the method*.
-    
-### Ongoing
+### Methodology :
 
-  * parse 477 web pages 
-  
-    * python library - Beautifulsoup 
+477 files were distributed across 8 members , Naveen M was not available
 
-  * generate question and answer
-  
-    * open source code to generate the question and answer ,
-      the quality of the questions requires manual verification.
-    
-### Schema of QandA - Json format
+3 types of QA along with the context were generated
+
+* QA based on python code
+
+* QA based on contents in tabular format
+
+* QA based on text content in the web page
+
+#### Implementation 
+
+* Beautifulsoup package was used extensively to scrape the web page and extract text information
+
+* nlp model from hugging face was used to generated the QA from the context
 
 
-{
-        "Answer": ">>> # Example of a function that takes in a torch.device\n>>> cuda1 = torch.device('cuda:1')\n>>> torch.randn((2,3), device=cuda1)\n",
-        "Question": "How  the torch.device argument in functions can generally be substituted with a string.\nThis allows for fast prototyping of code., give an example?",
-        "Id": 160,
-        "source": "https://pytorch.org/docs/stable/tensor_attributes.html#type-promotion-doc",
-        "context": " Thetorch.deviceargument in functions can generally be substituted with a string.\nThis allows for fast prototyping of code."
-},
 
+
+### Final output
+
+| Member    | QA generated |
+|-----------|--------------|
+| Deepak    | 3417         |
+| Nikhil    | 2627         |
+| Anish     | 5419         |
+| Vishak    | 1582         |
+| Parinita  | 6720         |
+| Shyam     | 2215         |
+| Ritambhra | 1931         |
+| Arghya    | 5146         |
+
+
+Total question generated : 29,057 
+
+### Conclusion:
+
+Clean up is required to improve the quality of QA 
 
 
 
