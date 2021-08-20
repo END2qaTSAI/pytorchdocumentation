@@ -54,13 +54,13 @@ Part 1 -
 | Nikhil    | 2627         |
 | Anish     | 5419         |
 | Vishak    | 1582         |
-| Parinita  | 2950         |
+| Parinita  | 6720         |
 | Shyam     | 2215         |
 | Ritambhra | 1931         |
 | Arghya    | 5146         |
 
 
-Total question generated : 25,287 
+Total question generated : 29,057 
 
 ### Conclusion:
 
