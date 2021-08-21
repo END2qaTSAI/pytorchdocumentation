@@ -3120,12 +3120,6 @@
         "source": "https://pytorch.org/docs/stable/torch.html#reduction-ops"
     },
     {
-        "answer": "otherelement-wise",
-        "question": "Computesinputothertextinput neq textotherinput= what?",
-        "context": "ne Computesinput\u2260other\\text{input} \ eq \\text{other}input\ue020=otherelement-wise.",
-        "source": "https://pytorch.org/docs/stable/torch.html#reduction-ops"
-    },
-    {
         "answer": "not_equal",
         "question": "What is Alias for torch.ne()?",
         "context": "not_equal Alias for torch.ne().",
