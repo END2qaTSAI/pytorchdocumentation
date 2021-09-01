@@ -51,7 +51,7 @@ Part 1 -
 | Member    | QA generated |
 |-----------|--------------|
 | Deepak    | 3417         |
-| Nikhil    | 2627         |
+| Nikhil    | 1000         |
 | Anish     | 5419         |
 | Vishak    | 1582         |
 | Parinita  | 6720         |
