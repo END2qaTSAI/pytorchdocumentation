@@ -357,6 +357,247 @@
         "context": "window_length(int) \u2013 the size of returned window periodic(bool,optional) \u2013 If True, returns a window to be used as periodic\nfunction. If False, return a symmetric window. dtype(torch.dtype, optional) \u2013 the desired data type of returned tensor.\nDefault: if None, uses a global default (seetorch.set_default_tensor_type()). Only floating point types are supported. layout(torch.layout, optional) \u2013 the desired layout of returned window tensor. Only torch.strided(dense layout) is supported. device(torch.device, optional) \u2013 the desired device of returned tensor.\nDefault: if None, uses the current device for the default tensor type\n(seetorch.set_default_tensor_type()).devicewill be the CPU\nfor CPU tensor types and the current CUDA device for CUDA tensor types. requires_grad(bool,optional) \u2013 If autograd should record operations on the\nreturned tensor. Default:False. A 1-D tensor of size(window_length,)(\\text{window\\_length},)(window_length,)containing the window Tensor ",
         "source": "https://pytorch.org/docs/stable/generated/torch.bartlett_window.html#torch.bartlett_window"
     },
+
+    "What is the library part of?": {
+        "answer": "thePyTorchproject",
+        "question": "What is the library part of?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What is PyTorch?": {
+        "answer": "open source machine learning framework",
+        "question": "What is PyTorch?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What is the release status of PyTorch?": {
+        "answer": "Stable",
+        "question": "What is the release status of PyTorch?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What does PyTorch expect to maintain?": {
+        "answer": "backwards compatibility",
+        "question": "What does PyTorch expect to maintain?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What project is this library part of?": {
+        "answer": "thePyTorchproject",
+        "question": "What project is this library part of?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What type of machine learning framework is PyTorch?": {
+        "answer": "open source",
+        "question": "What type of machine learning framework is PyTorch?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What is the release status of the features described in this documentation?": {
+        "answer": "Stable",
+        "question": "What is the release status of the features described in this documentation?",
+        "context": "Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What do we expect to maintain?": {
+        "answer": "backwards compatibility",
+        "question": "What do we expect to maintain?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What is the release status of features described in this documentation?": {
+        "answer": "Stable",
+        "question": "What is the release status of features described in this documentation?",
+        "context": "Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What type of features will be maintained long-term?": {
+        "answer": "Stable",
+        "question": "What type of features will be maintained long-term?",
+        "context": "Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "How long will these features be maintained?": {
+        "answer": "long-term",
+        "question": "How long will these features be maintained?",
+        "context": "Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "Why are features tagged as Beta?": {
+        "answer": "the performance needs to improve",
+        "question": "Why are features tagged as Beta?",
+        "context": "Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What classification do we commit to seeing a feature through to?": {
+        "answer": "Stable",
+        "question": "What classification do we commit to seeing a feature through to?",
+        "context": "Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What are we not committing to?": {
+        "answer": "backwards compatibility",
+        "question": "What are we not committing to?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What may the API change based on?": {
+        "answer": "user feedback",
+        "question": "What may the API change based on?",
+        "context": "Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What classification are Beta features committed to seeing through?": {
+        "answer": "Stable",
+        "question": "What classification are Beta features committed to seeing through?",
+        "context": "Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "We are not committing to what?": {
+        "answer": "backwards compatibility",
+        "question": "We are not committing to what?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What are features sometimes hidden behind?": {
+        "answer": "run-time flags",
+        "question": "What are features sometimes hidden behind?",
+        "context": "Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What are features at an early stage for?": {
+        "answer": "feedback and testing",
+        "question": "What are features at an early stage for?",
+        "context": "Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "Thetorchaudiopackage consists of I/O, common audio transformations, and what?": {
+        "answer": "popular datasets",
+        "question": "Thetorchaudiopackage consists of I/O, common audio transformations, and what?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What does Thetorchaudiopackage consist of?": {
+        "answer": "Package Reference PyTorch Libraries",
+        "question": "What does Thetorchaudiopackage consist of?",
+        "context": "Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What are PyPI and Conda features sometimes hidden behind?": {
+        "answer": "run-time flags",
+        "question": "What are PyPI and Conda features sometimes hidden behind?",
+        "context": "Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What consists of I/O, popular datasets and common audio transformations?": {
+        "answer": "Thetorchaudiopackage",
+        "question": "What consists of I/O, popular datasets and common audio transformations?",
+        "context": "This library is part of thePyTorchproject. PyTorch is an open source\nmachine learning framework. Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What libraries are included in Thetorchaudiopackage?": {
+        "answer": "Package Reference PyTorch Libraries",
+        "question": "What libraries are included in Thetorchaudiopackage?",
+        "context": "Features described in this documentation are classified by release status: Stable:These features will be maintained long-term and there should generally\nbe no major performance limitations or gaps in documentation.\nWe also expect to maintain backwards compatibility (although\nbreaking changes can happen and notice will be given one release ahead\nof time). Beta:Features are tagged as Beta because the API may change based on\nuser feedback, because the performance needs to improve, or because\ncoverage across operators is not yet complete. For Beta features, we are\ncommitting to seeing the feature through to the Stable classification.\nWe are not, however, committing to backwards compatibility. Prototype:These features are typically not available as part of\nbinary distributions like PyPI or Conda, except sometimes behind run-time\nflags, and are at an early stage for feedback and testing. Thetorchaudiopackage consists of I/O, popular datasets and common audio transformations. Package Reference PyTorch Libraries ",
+        "source": "https://pytorch.org/audio/stable/index.html"
+    },
+    "What is the LU solve of the linear systemAx=bAx = bAx=busing?": {
+        "answer": "LU factorization of A fromtorch.lu()",
+        "question": "What is the LU solve of the linear systemAx=bAx = bAx=busing?",
+        "context": "Returns the LU solve of the linear systemAx=bAx = bAx=busing the partially pivoted\nLU factorization of A fromtorch.lu(). This function supportsfloat,double,cfloatandcdoubledtypes forinput. b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "What types of types does this function support?": {
+        "answer": "float,double,cfloatandcdoubledtypes forinput",
+        "question": "What types of types does this function support?",
+        "context": "Returns the LU solve of the linear systemAx=bAx = bAx=busing the partially pivoted\nLU factorization of A fromtorch.lu(). This function supportsfloat,double,cfloatandcdoubledtypes forinput. b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "What is the RHS tensor of size(,m,k)(*, m, k)(,m": {
+        "answer": "b(Tensor)",
+        "question": "What is the RHS tensor of size(,m,k)(*, m, k)(,m",
+        "context": "b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. LU_pivots(IntTensor) \u2013 the pivots of the LU factorization fromtorch.lu()of size(\u2217,m)(*, m)(\u2217,m),\nwhere\u2217*\u2217is zero or more batch dimensions.\nThe batch dimensions ofLU_pivotsmust be equal to the batch dimensions ofLU_data. out(Tensor,optional) \u2013 the output tensor. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "What is the pivoted LU factorization of A fromtorch.lu()?": {
+        "answer": "LU_data(Tensor)",
+        "question": "What is the pivoted LU factorization of A fromtorch.lu()?",
+        "context": "Returns the LU solve of the linear systemAx=bAx = bAx=busing the partially pivoted\nLU factorization of A fromtorch.lu(). This function supportsfloat,double,cfloatandcdoubledtypes forinput. b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "Returns what of the linear systemAx=bAx = bAx=busing the partially pivoted LU factorization of A": {
+        "answer": "LU solve",
+        "question": "Returns what of the linear systemAx=bAx = bAx=busing the partially pivoted LU factorization of A",
+        "context": "Computes the eigenvalues and eigenvectors of a real square matrix.   This is a low-level function for calling LAPACK\u2019s geqrf directly.   Alias oftorch.outer().   Computes the dot product for 1D tensors.   Alias fortorch.linalg.inv()   Alias fortorch.linalg.det()   Calculates log determinant of a square matrix or batches of square matrices.   Alias fortorch.linalg.slogdet()   Computes the solution to the least squares and least norm problems for a full rank matrixAAAof size(m\u00d7n)(m \\times n)(m\u00d7n)and a matrixBBBof size(m\u00d7k)(m \\times k)(m\u00d7k).   Computes the LU factorization of a matrix or batches of matricesA.   Returns the LU solve of the linear systemAx=bAx = bAx=busing the partially pivoted LU factorization of A fromtorch.lu().   Unpacks the data and pivots from a LU factorization of a tensor into tensorsLandUand a permutation tensorPsuch thatLU_data,LU_pivots=(P@L@U).lu().   Matrix product of two tensors.   Alias fortorch.linalg.matrix_power()   Returns the numerical rank of a 2-D tensor.   Computes the matrix exponential of a square matrix or of each square matrix in a batch.   Performs a matrix multiplication of the matricesinputandmat2.   Performs a matrix-vector product of the matrixinputand the vectorvec.   Alias fortorch.linalg.householder_product().   Computes the matrix-matrix multiplication of a product of Householder matrices with a general matrix.   Outer product ofinputandvec2.   Alias fortorch.linalg.pinv()   Computes the QR decomposition of a matrix or a batch of matricesinput, and returns a namedtuple (Q, R) of tensors such thatinput=QR\\text{input} = Q Rinput=QRwithQQQbeing an orthogonal matrix or batch of orthogonal matrices andRRRbeing an upper triangular matrix or batch of upper triangular matrices.   This function returns the solution to the system of linear equations represented byAX=BAX = BAX=Band the LU factorization of A, in order as a namedtuplesolution, LU.   Computes the singular value decomposition of either a matrix or batch of matricesinput.   ",
+        "source": "https://pytorch.org/docs/stable/torch.html#pointwise-ops"
+    },
+    "This function supports float,double, and what other type of input?": {
+        "answer": "cfloat",
+        "question": "This function supports float,double, and what other type of input?",
+        "context": "Returns the LU solve of the linear systemAx=bAx = bAx=busing the partially pivoted\nLU factorization of A fromtorch.lu(). This function supportsfloat,double,cfloatandcdoubledtypes forinput. b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+
+    "What is the pivoted LU factorization of A fromtorch.lu()of size(,m,m)(*,": {
+        "answer": "LU_data",
+        "question": "What is the pivoted LU factorization of A fromtorch.lu()of size(,m,m)(*,",
+        "context": "b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. LU_pivots(IntTensor) \u2013 the pivots of the LU factorization fromtorch.lu()of size(\u2217,m)(*, m)(\u2217,m),\nwhere\u2217*\u2217is zero or more batch dimensions.\nThe batch dimensions ofLU_pivotsmust be equal to the batch dimensions ofLU_data. out(Tensor,optional) \u2013 the output tensor. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "What are the pivots of the LU factorization fromtorch.lu()of size(,m)(*, m": {
+        "answer": "LU_pivots",
+        "question": "What are the pivots of the LU factorization fromtorch.lu()of size(,m)(*, m",
+        "context": "b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. LU_pivots(IntTensor) \u2013 the pivots of the LU factorization fromtorch.lu()of size(\u2217,m)(*, m)(\u2217,m),\nwhere\u2217*\u2217is zero or more batch dimensions.\nThe batch dimensions ofLU_pivotsmust be equal to the batch dimensions ofLU_data. out(Tensor,optional) \u2013 the output tensor. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+    "What must the batch dimensions ofLU_pivots be equal to?": {
+        "answer": "the batch dimensions ofLU_data",
+        "question": "What must the batch dimensions ofLU_pivots be equal to?",
+        "context": "b(Tensor) \u2013 the RHS tensor of size(\u2217,m,k)(*, m, k)(\u2217,m,k), where\u2217*\u2217is zero or more batch dimensions. LU_data(Tensor) \u2013 the pivoted LU factorization of A fromtorch.lu()of size(\u2217,m,m)(*, m, m)(\u2217,m,m),\nwhere\u2217*\u2217is zero or more batch dimensions. LU_pivots(IntTensor) \u2013 the pivots of the LU factorization fromtorch.lu()of size(\u2217,m)(*, m)(\u2217,m),\nwhere\u2217*\u2217is zero or more batch dimensions.\nThe batch dimensions ofLU_pivotsmust be equal to the batch dimensions ofLU_data. out(Tensor,optional) \u2013 the output tensor. ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.lu_solve.html#torch.lu_solve"
+    },
+
+    "Out(Tensor,optional) \u2013 what?": {
+        "answer": "output tensor",
+        "question": "Out(Tensor,optional) \u2013 what?",
+        "context": "out(Tensor,optional) \u2013 the output tensor. Computes the error function ofinput. The error function is defined as follows: input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the complementary error function ofinput.\nThe complementary error function is defined as follows: input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the inverse error function ofinput.\nThe inverse error function is defined in the range(\u22121,1)(-1, 1)(\u22121,1)as: input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the expit (also known as the logistic sigmoid function) of the elements ofinput. input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the exponential of the elements minus 1\nofinput. Note This function provides greater precision than exp(x) - 1 for small values of x. input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the base two exponential function ofinput. input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the natural logarithm of the absolute value of the gamma function oninput. input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Example: Computes the exponentially scaled zeroth order modified Bessel function of the first kind (as defined below)\nfor each element ofinput. input(Tensor) \u2013 the input tensor. out(Tensor,optional) \u2013 the output tensor. Returns a new tensor with the logit of the elements ofinput.inputis clamped to [eps, 1 - eps] when eps is not None.\nWhen eps is None andinput< 0 orinput> 1, the function will yields NaN. input(Tensor) \u2013 the input tensor. eps(float,optional) \u2013 the epsilon for input clamp bound. Default:None out(Tensor,optional) \u2013 the output tensor. Example: Computesinput*log1p(other)with the following cases. Similar to SciPy\u2019sscipy.special.xlog1py. input(NumberorTensor) \u2013 Multiplier other(NumberorTensor) \u2013 Argument Note ",
+        "source": "https://pytorch.org/docs/stable/special.html#torch.special.erf"
+    },
+    "Returns the indices that sort a tensor along a given dimension in what order?": {
+        "answer": "ascending order by value",
+        "question": "Returns the indices that sort a tensor along a given dimension in what order?",
+        "context": "Returns the indices that sort a tensor along a given dimension in ascending\norder by value. This is the second value returned bytorch.sort().  See its documentation\nfor the exact semantics of this method. input(Tensor) \u2013 the input tensor. dim(int,optional) \u2013 the dimension to sort along descending(bool,optional) \u2013 controls the sorting order (ascending or descending) Example: ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.argsort.html#torch.argsort"
+    },
+
+    "What does the documentation of bytorch.sort() provide?": {
+        "answer": "exact semantics",
+        "question": "What does the documentation of bytorch.sort() provide?",
+        "context": "Returns the indices that sort a tensor along a given dimension in ascending\norder by value. This is the second value returned bytorch.sort().  See its documentation\nfor the exact semantics of this method. input(Tensor) \u2013 the input tensor. dim(int,optional) \u2013 the dimension to sort along descending(bool,optional) \u2013 controls the sorting order (ascending or descending) Example: ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.argsort.html#torch.argsort"
+    },
+
+    "What do you need to know about the second value returned bytorch.sort()?": {
+        "answer": "semantics",
+        "question": "What do you need to know about the second value returned bytorch.sort()?",
+        "context": "Returns the indices that sort a tensor along a given dimension in ascending\norder by value. This is the second value returned bytorch.sort().  See its documentation\nfor the exact semantics of this method. input(Tensor) \u2013 the input tensor. dim(int,optional) \u2013 the dimension to sort along descending(bool,optional) \u2013 controls the sorting order (ascending or descending) Example: ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.argsort.html#torch.argsort"
+    },
+
+    "What returns the cumulative maximum of elements of input in the dimensiondim?": {
+        "answer": "a namedtuple",
+        "question": "What returns the cumulative maximum of elements of input in the dimensiondim?",
+        "context": "Returns a namedtuple(values,indices)wherevaluesis the cumulative maximum of\nelements ofinputin the dimensiondim. Andindicesis the index\nlocation of each maximum value found in the dimensiondim. input(Tensor) \u2013 the input tensor. dim(int) \u2013 the dimension to do the operation over out(tuple,optional) \u2013 the result tuple of two output tensors (values, indices) Example: ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.cummax.html#torch.cummax"
+    },
+    "What is the index location of each maximum value found in the dimensiondim?": {
+        "answer": "Andindices",
+        "question": "What is the index location of each maximum value found in the dimensiondim?",
+        "context": "Returns a namedtuple(values,indices)wherevaluesis the cumulative minimum of\nelements ofinputin the dimensiondim. Andindicesis the index\nlocation of each maximum value found in the dimensiondim. input(Tensor) \u2013 the input tensor. dim(int) \u2013 the dimension to do the operation over out(tuple,optional) \u2013 the result tuple of two output tensors (values, indices) Example: ",
+        "source": "https://pytorch.org/docs/stable/generated/torch.cummin.html#torch.cummin"
+    },
+
  
     "What type of window types are supported?": {
         "answer": "floating point types",
